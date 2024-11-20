@@ -528,17 +528,30 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|--45
+  name: 11|0|--30
   network: ws
   port: 443
-  server: 23.134.94.50
+  server: 149.7.16.174
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: meroiy.icu
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 11|0|--38
+  network: ws
+  port: 443
+  server: 149.7.16.102
   servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: vk.com
+      Host: jader.fun
     path: /linkvws
 - alterId: 0
   cipher: auto
